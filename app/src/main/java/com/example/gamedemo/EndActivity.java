@@ -57,7 +57,6 @@ public class EndActivity extends AppCompatActivity {
         replayButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                System.out.println("replay");
                 Intent intent=new Intent(EndActivity.this,MainActivity.class);
                 startActivity(intent);
                 finish();
@@ -66,7 +65,6 @@ public class EndActivity extends AppCompatActivity {
         exitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                System.out.println("exit");
                 finish();
                 System.exit(0);
 
